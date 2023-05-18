@@ -1,29 +1,30 @@
+:root {font-family: "Roboto" sans-serif;}
 .logo
-{Font family: Raleway
-    Font style: Bold
-    Font size: 26px
-    Line height: 31px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 0, 003
-    color; blue 2196F3
-    Effect: Drop shadow
-    Radius: 4px
-    Offset: 0px, 4px
-    rgba(0, 0, 0, 0.25)}
+{font family: Raleway
+    font-style: Bold;
+    font-size: 26px;
+    line height: 31px;
+    line height: 100%;
+    align: left;
+    vertical align: top;
+    letter spacing: 0, 003;
+    color; blue 2196F3;
+    ffect: drop shadow;
+    radius: 4px;
+    offset: 0px, 4px;
+    rgba(0, 0, 0, 0.25);}
     
 .logo2
-{Font family: Raleway
-    Font style: Bold
-    Font size: 26px
-    Line height: 31px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 0,003
-        color; black 000000
-        Effect: Drop shadow
-        Radius: 4px
-        Offset: 0px, 4px
-        rgba(0, 0, 0, 0.25)}
+{font-family: Raleway;
+    font style: Bold;
+    font size: 26px;
+    line height: 31px;
+    line height: 100%;
+    align: Left;
+    vertical align: Top;
+    letter spacing: 0,003;
+        color; black 000000;
+        effect: Drop shadow;
+        radius: 4px;
+        offset: 0px, 4px;
+        rgba(0, 0, 0, 0.25);}
