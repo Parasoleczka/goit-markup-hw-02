@@ -1,26 +1,44 @@
 :root {
   font-family: "Roboto" sans-serif;
+  color: (--body-color-white--);
 }
-.logo {
+.links {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  height: 16px;
+  width: 254px;
+  left: 453px;
+  top: 32px;
+  border-radius: 0px;
+}
+
+.navigation {
+  display: inline;
+}
+.mail a {
+  color: #2196f3;
+  width: 135px;
+  height: 16px;
+  height: 16px;
+  top: 32px;
+  border-radius: nullpx;
+}
+.logo-web a {
   font-family: Raleway;
   font-style: Bold;
   font-size: 26px;
-  line-height: 31px;
-  line-height: 100%;
-  vertical-align: top;
-  letter-spacing: 0, 003;
+  line-height: 1.5;
   color: blue 2196F3;
   offset: 0px, 4px;
 }
 
-.logo2 {
+.logo2 a {
   font-family: Raleway;
   font-style: Bold;
   font-size: 26px;
   line-height: 31px;
   line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 0, 003;
   color: black 000000;
   offset: 0px, 4px;
 }
@@ -29,4 +47,27 @@
 }
 .number {
   color: #757575;
+  height: 31px;
+  width: 145px;
+  left: 215px;
+  top: 24px;
+  border-radius: nullpx;
+}
+.p {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  padding: 200px 452px 280px 452px;
+  background: #2f303a;
+  color: white;
+}
+.button order {
+  text-align: center;
+  padding: 200px 452px 280px 452px;
+  background-color: blue;
+  color: white;
+}
+.atuty {
+  display: inline-block;
 }
