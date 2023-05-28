@@ -58,9 +58,17 @@
 }
 .title {
   text-align: center;
+  font-size: Roboto;
+  font-weight: 900;
+  line-height: 60px;
   padding: 200px 452px 280px 452px;
   background: #2f303a;
   color: white;
+  height: 120px;
+  width: 696px;
+  left: 452px;
+  top: 280px;
+  border-radius: nullpx;
 }
 .button order {
   text-align: center;
