@@ -1,8 +1,16 @@
 :root {
-  font-family: "Roboto" sans-serif;
-  color: (--body-color-white--);
-  color: black white;
+  --font-family:('Roboto' 'Raleway' sans-serif)
+  --color: (--body-color-white--);
+  --background-color:(--main-color--);
+
+
 }
+.body {
+  font-family:var(--'Roboto' 'Raleway' sans-serif --)
+  color: var(--body-color-white--);
+  background-color:var(--main-color--);
+}
+
 .links {
   display: inline-block;
   color: black;
@@ -47,7 +55,7 @@
   color: black 000000;
   offset: 0px, 4px;
 }
-.agencja a {
+.agencja {
   color: #2196f3;
 }
 .number {
@@ -57,31 +65,37 @@
   width: 145px;
   left: 215px;
   top: 24px;
-  border-radius: nullpx;
+ 
 }
 .p {
   text-align: center;
 }
 .title {
   text-align: center;
-  font-size: Roboto;
+  font-size: 44px;
   font-weight: 900;
-  line-height: 2, 6;
+  line-height: 1,36;
   padding: 200px 452px 280px 452px;
   background: #2f303a;
   color: white;
-  height: 120px;
-  width: 696px;
-  left: 452px;
-  top: 280px;
-  border-radius: nullpx;
+  font-style: normal;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+
+  
 }
-.button order {
+.button {
   text-align: center;
-  padding: 200px 452px 280px 452px;
   background-color: blue;
   color: white;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.88;
+  border-radius: 5px 5px;
+  border-style: 5px ;
+
 }
 .atuty {
   display: flex;
