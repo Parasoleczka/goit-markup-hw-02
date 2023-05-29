@@ -1,0 +1,82 @@
+:root:{
+   --background-color:#E5E5E5;
+    --font-family: Roboto;
+    --color: #212121;
+
+
+}
+.button.portfolio {
+    display: inline-block;
+    color: black;
+    height: 16px;
+    width: 254px;
+    left: 453px;
+    top: 32px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  .button-portfolio:hover {
+    background-color: var(--blue-color);
+    color: var(--button-text-color);
+  }
+  .footer {
+    background-color: var(--secondry-bacground-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--tittle-color);
+  
+  }
+  .footer-logo {
+    color: var(--main-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.19;
+  }
+  .footer-address {
+    color: var(--main-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    line-height: 1.7;
+    list-style: none;
+    font-style: normal;
+  }
+  .footer-address:hover {
+    color: #2196f3;
+  }
+  
+  .footer-mail {
+    color: var(--footer-text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    line-height: 1.7;
+    font-style: normal;
+  }
+  .footer-mail:hover {
+    color: var(--blue-color);
+  }
+  
+  .footer-phone {
+    color: var(--footer-text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    line-height: 1.7;
+    font-style: normal;
+  }
+  .footer-phone:hover {
+      color: #2196f3;

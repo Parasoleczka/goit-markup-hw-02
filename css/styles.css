@@ -18,15 +18,7 @@
   font-family:var('Roboto' 'Raleway' sans-serif);
     background-color: var(--background-color);
   }
-.button.portfolio {
-  display: inline-block;
-  color: black;
-  height: 16px;
-  width: 254px;
-  left: 453px;
-  top: 32px;
-  border-radius: 0px;
-}
+
 
 .navigation {
   display: inline-block;
