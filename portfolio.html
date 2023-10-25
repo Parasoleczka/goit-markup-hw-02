@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,181 +22,216 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navigation">
-        <a class="footer-logo" href="index.html"
-          ><span class="logo2">Web</span><span class="logo-web">Studio</span></a
-        >
-        <ul>
-          <li><a class="links" href="#"> </a>Agencja</li>
-          <li><a class="links" href="portfolio.html"></a>Portfolio</li>
-          <li><a class="links" href="#"></a>Kontakt</li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="mail" href="mailto:info@devstudio.com"
-            >mail:info@devstudio.com</a
+    <header class="header">
+      <div class="container header-wrap">
+        <nav class="menu">
+          <a class="logo-web" href="index.html"
+            ><span class="logo-web-header-portfolio">Web</span
+            ><span class="logo-web1">Studio</span></a
           >
-        </li>
+          <ul class="navigation">
+            <li><a class="links-studio" href="index.html"> </a>Studio</li>
+            <li>
+              <a class="links-portfolio" href="portfolio.html"></a>Portfolio
+            </li>
+            <li><a class="links-kontakt" href="index.html"></a>Contacts</li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="address">
+            <li class="address-mail">
+              <a class="addres-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
 
-        <li><a class="number" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+            <li class="address-number">
+              <a class="address-number" href="tel:+48111111111"
+                >+11(00) 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
-      <ul>
-        <li>
-          <button class="button.portfolio" type="button">Wszystkie</button>
-        </li>
-        <li>
-          <button class="button.portfolio" type="button">Strony</button>
-        </li>
-        <li>
-          <button class="button.portfolio" type="button">Aplikacje</button>
-        </li>
-        <li><button class="button.portfolio" type="button">Dizajn</button></li>
-        <li>
-          <button class="button.portfolio" type="button">Marketing</button>
-        </li>
-      </ul>
-      <!--h1obrazki-->
-      <section>
-        <ul>
-          <li>
-           
-              <img
-                src="images/images hw2/img (3).jpg"
-                alt="people in komputer"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-            <h3>Technocrak</h3>
-            <p>Strona internetowa</p>
-          </li>
+      <section class="section-portfolio">
+        <div class="container">
+          <h1 class="visually-hidden">Hero</h1>
+          <ul class="hero-button-portfolio">
+            <li class="button-portfolio">
+              <button class="button-portfolio" type="button">All</button>
+            </li>
+            <li class="button-portfolio">
+              <button class="button-portfolio" type="button">Website</button>
+            </li>
+            <li class="button-portfolio">
+              <button class="button-portfolio" type="button">App</button>
+            </li>
+            <li class="button-portfolio">
+              <button class="button-portfolio" type="button">Design</button>
+            </li>
+            <li class="button-portfolio">
+              <button class="button-portfolio" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!--h1obrazki-->
+          <ul class="images-portfolio">
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="./images/app.jpg"
+                  alt="app"
+                  width="360"
+                  height="300"
+                />
 
-          <li>
-          
-              <img
-                src="images/images hw2/img-1 (1).jpg"
-                alt="basketball players"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-            <h3>Grafika New Orlean vs Golden Star</h3>
-            <p>Dizajn</p>
-          </li>
+                <div class="items">
+                  <h3 class="headline">Banking App Interface Concept</h3>
+                  <p class="paragraph">App</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-    
-              <img
-                src="images/images hw2/img-2.jpg"
-                alt="The seafood restaurant"
-                width="370"
-                height="294"
-              
-            /></a>
-            <h3>Restauracja Seafood</h3>
-            <p>Aplikacja</p>
-          </li>
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="./images/paybynet.jpg"
+                  alt="phone"
+                  width="360"
+                  height="300"
+                />
 
-          <li>
-          
-              <img
-                src="images/images hw2/img-3.jpg"
-                alt="wireless headphones"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-            <h3>Projekt Prime</h3>
-            <p>Marketing</p>
-          </li>
+                <div class="items">
+                  <h3 class="headline">Cashless Payment</h3>
+                  <p class="paragraph">Marketing</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-                        <img
-                src="images/images hw2/img-4 (1).jpg"
-                alt="boxs"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-            <h3>Projekt Boxes</h3>
-            <p>Aplikacja</p>
-          </li>
+            <li class="img-class">
+              <a class="link"
+                ><img
+                  src="./images/ekrans.jpg"
+                  alt="komp"
+                  width="360"
+                  height="300"
+                />
+                <div class="items">
+                  <h3 class="headline">Meditation App</h3>
+                  <p class="paragraph">App</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-          
-              <img
-                src="images/images hw2/img-5.jpg"
-                alt="computer"
-                width="370"
-                height="294"
-                
-              />
-            </a>
-            <h3>Inspiration has no Borders</h3>
-            <p>Strona internetowa</p>
-          </li>
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="./images/car.jpg"
+                  alt="auto"
+                  width="360"
+                  height="300"
+                />
 
-          <li>
-        
-              <img
-                src="images/images hw2/img-6.jpg"
-                alt="open newspaper"
-                width="370"
-                height="294"
-          
-            /></a>
-            <h3>Magazyn Limited Edition</h3>
-            <p>Dizajn</p>
-          </li>
-          <li>
-      
-              <img
-                src="images/images hw2/img-7.jpg"
-                alt="some kind of label"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-            <h3>Projekt LAB</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-          
-              <img
-                src="images/images hw2/img-8.jpg"
-                alt="hands on computer"
-                width="370"
-                height="294"
-              
-              />
-            </a>
-          </li>
-        </ul>
+                <div class="items">
+                  <h3 class="headline">Taxi Service</h3>
+                  <p class="paragraph">App</p>
+                </div></a
+              >
+            </li>
+
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="./images/iphone.jpg"
+                  alt="iphone"
+                  width="360"
+                  height="300"
+                />
+
+                <div class="items">
+                  <h3 class="headline">Screen Illustrations</h3>
+                  <p class="paragraph">Design</p>
+                </div></a
+              >
+            </li>
+
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="images/girl.jpg"
+                  alt="smailing girl"
+                  width="360"
+                  height="294"
+                />
+
+                <div class="items">
+                  <h3 class="headline">Online Courses</h3>
+                  <p class="paragraph">Marketing</p>
+                </div></a
+              >
+            </li>
+
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="images/people.jpg"
+                  alt="newspaper"
+                  width="360"
+                  height="300"
+                />
+                <div class="items">
+                  <h3 class="headline">Instagram Stories Concept</h3>
+                  <p class="paragraph">Design</p>
+                </div></a
+              >
+            </li>
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="images/shop.jpg"
+                  alt="shopping bag"
+                  width="360"
+                  height="300"
+                />
+
+                <div class="items">
+                  <h3 class="headline">Organic Food</h3>
+                  <p class="paragraph">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li class="img-class">
+              <a class="link">
+                <img
+                  src="images/caffe.jpg"
+                  alt="caffe"
+                  width="360"
+                  height="300"
+                />
+
+                <div class="items">
+                  <h3 class="headline">Fresh Coffee</h3>
+                  <p class="paragraph">Web Site</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div>
+    <footer class="footer-container">
+      <div class="container">
         <a class="footer-logo" href="index.html"
-          ><span class="logo2">Web</span
-          ><span class="logo-web-footer">Studio</span></a
-        >
-        <address>
-          Warszawa <br />
-          Aleje Jerozolimskie 21 <br />
-          <a href="mailto:info@example.com">info@example.com</a>
-          <a href="tel:+48111111111"> +48 111 111 111</a>
-        </address>
+          ><span class="logo-web-footer">Web</span
+          ><span class="logo-studio-footer"> Studio</span>
+        </a>
+        <p class="paragraph text-footer">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
       </div>
     </footer>
   </body>
